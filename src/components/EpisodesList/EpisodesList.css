@@ -1,0 +1,25 @@
+.episodes-list ul {
+  display: grid;
+  list-style-type: none;
+  padding: 0.25rem;
+  margin-left: 0.5rem;
+  background-color: black;
+  color: white;
+}
+
+.episodes-list li {
+  padding: 0.5rem;
+  border-bottom: 1px solid #292929;
+  font-size: large;
+}
+
+.episodes-list li:hover {
+  cursor: pointer;
+  font-style: italic;
+  background-color: #292929;
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+  color: white;
+}

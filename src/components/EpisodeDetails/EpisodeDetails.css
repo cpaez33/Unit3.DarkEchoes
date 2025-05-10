@@ -1,0 +1,25 @@
+.details {
+  padding: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1ch;
+}
+
+.details h2,
+p {
+  color: white;
+}
+
+.Title {
+  font-weight: bolder;
+  font-size: large;
+}
+
+button {
+  padding: 0.2rem;
+}
+
+button:hover {
+  background-color: darkgrey;
+  cursor: pointer;
+}
